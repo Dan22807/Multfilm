@@ -1,0 +1,221 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe, файл: c:\users\user\downloads\codeblocks\mingw\include\txlib.h, строка: 14245, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdre0, Thread: 0x2380 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419463 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (14245)
+# 1 0x00419EDD in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (14397)
+# 2 0x00403F4C in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txCleanup() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (9082)
+# 3 0x004038B9 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txOnCExit() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (8894)
+# 4 0x00401284 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: __mingw_CRTStartup()
+# 5 0x004012C5 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: WinMainCRTStartup()
+# 6 0x77AB7B5E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 7 0x77AB7B2E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\user\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Nov  1 2022 20:11:39, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 01 2022 20:11:48
+
+Run file:	E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe
+Directory:	E:\Мусиенко Даниил\Multfilm\Mult
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe, файл: c:\users\user\downloads\codeblocks\mingw\include\txlib.h, строка: 14245, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdre0, Thread: 0x4618 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419463 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (14245)
+# 1 0x00419EDD in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (14397)
+# 2 0x00403F4C in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txCleanup() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (9082)
+# 3 0x004038B9 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txOnCExit() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (8894)
+# 4 0x00401284 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: __mingw_CRTStartup()
+# 5 0x004012C5 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: WinMainCRTStartup()
+# 6 0x77AB7B5E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 7 0x77AB7B2E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\user\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Nov  1 2022 20:23:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 01 2022 20:44:03
+
+Run file:	E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe
+Directory:	E:\Мусиенко Даниил\Multfilm\Mult
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe, файл: c:\users\user\downloads\codeblocks\mingw\include\txlib.h, строка: 14245, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdre0, Thread: 0x448 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\user\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Nov  1 2022 20:23:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 02 2022 16:10:20
+
+Run file:	E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe
+Directory:	E:\Мусиенко Даниил\Multfilm\Mult
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe, файл: c:\users\user\downloads\codeblocks\mingw\include\txlib.h, строка: 14245, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdre0, Thread: 0x2710 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419463 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (14245)
+# 1 0x00419EDD in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (14397)
+# 2 0x00403F4C in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txCleanup() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (9082)
+# 3 0x004038B9 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txOnCExit() at c:/users/user/downloads/codeblocks/mingw/include/txlib.h (8894)
+# 4 0x00401284 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: __mingw_CRTStartup()
+# 5 0x004012C5 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: WinMainCRTStartup()
+# 6 0x77AB7B5E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 7 0x77AB7B2E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\user\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Nov  8 2022 21:05:59, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 08 2022 21:16:16
+
+Run file:	E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe
+Directory:	E:\Мусиенко Даниил\Multfilm\Mult
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 14245, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdre0, Thread: 0x2744 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419463 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14245)
+# 1 0x00419EDD in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14397)
+# 2 0x00403F4C in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txCleanup() at c:/codeblocks/codeblocks/mingw/include/txlib.h (9082)
+# 3 0x004038B9 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txOnCExit() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8894)
+# 4 0x00401284 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: __mingw_CRTStartup()
+# 5 0x004012C5 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: WinMainCRTStartup()
+# 6 0x77427BBE in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 7 0x77427B8E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Dec  7 2022 16:56:52, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 14 2022 17:25:50
+
+Run file:	E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe
+Directory:	E:\Мусиенко Даниил\Multfilm\Mult
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe, файл: c:\codeblocks\codeblocks\mingw\include\txlib.h, строка: 14245, функция: intptr_t {anonymous}::TX::txPlayVideo(int, int, int, int, const char*, double, double, HWND),
+
+Сообщение: Возможно, окно рисования не создано или не в порядке.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdre0, Thread: 0x3968 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00419463 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14245)
+# 1 0x00419EDD in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: txPlayVideo() at c:/codeblocks/codeblocks/mingw/include/txlib.h (14397)
+# 2 0x00403F4C in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txCleanup() at c:/codeblocks/codeblocks/mingw/include/txlib.h (9082)
+# 3 0x004038B9 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: _txOnCExit() at c:/codeblocks/codeblocks/mingw/include/txlib.h (8894)
+# 4 0x00401284 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: __mingw_CRTStartup()
+# 5 0x004012C5 in E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe: WinMainCRTStartup()
+# 6 0x77427BBE in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 7 0x77427B8E in C:\Windows\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\codeblocks\mingw\include\txlib.h
+Compiled:	Dec 14 2022 17:34:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 14 2022 17:34:50
+
+Run file:	E:\Мусиенко Даниил\Multfilm\Mult\bin\Debug\Mult.exe
+Directory:	E:\Мусиенко Даниил\Multfilm\Mult
+
+--------------------------------------------------
