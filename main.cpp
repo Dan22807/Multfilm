@@ -59,7 +59,7 @@ void drawDoor(int xDoor, int yDoor)
     POINT door[4] = {{260, 450}, {xDoor,yDoor}, {xDoor, yDoor+615-450}, {260,615}};
           txPolygon (door, 4);
 }
-void drawMan(int x, int y, float razm)
+void drawMan(float x, float y, float razm)
  {
     //x=650
     txSetColor (RGB(249,219,164), 5);
@@ -137,6 +137,28 @@ txCircle(x+442-395,524,15);
 txCircle(x+495-395,524,15);
 
  }
+void drawRoad()
+{
+txSetColor (TX_GRAY);
+txSetFillColor (TX_GRAY);
+txRectangle (1,527,800,670);
+txSetColor (TX_WHITE);
+txSetFillColor (TX_WHITE);
+for(int x=1; x<800; x+=150)
+{
+  txRectangle (x,596,x+76,612);
+}
+}
+void drawNazvanie(int y)
+{
+//y=200
+txSetColor (TX_WHITE);
+txSetFillColor (TX_BLACK);
+txSelectFont ("Comic Sans MS", 60, 40, FW_BOLD);
+txDrawText   (0,y,800, y+200, "ÏÎÊÎÐÈÒÅËÈ ÃÎÐ");
+txSelectFont ("Comic Sans MS", 30);
+txDrawText   (0,y+200,800, y+400, "àâòîð:__________");
+}
 void drawMountains(int x, int y, float razm)
    {
     //x=626, y=161
@@ -168,15 +190,27 @@ void drawMountains(int x, int y, float razm)
     txPolygon (mountains32, 3);
 
    }
+
+   void drawTitry(int y)
+   {
+txSetColor (TX_WHITE);
+txSetFillColor (TX_BLACK);
+txSelectFont ("Comic Sans MS", 60, 40, FW_BOLD);
+txDrawText   (0,y,800, y+200, "ÊÎÍÅÖ");
+txSelectFont ("Comic Sans MS", 20);
+txDrawText   (0,y+200,800, y+400, "ïðîäþññåð:__________,\n"
+                                            "àêò¸ðû:__________,\n\n"
+                                            "îçâó÷èâàëè ìóëüòôèëüì:__________");
+   }
 int main()
     {
     txCreateWindow (800, 700);
 
     int xSun = 100;
     int ySun = 100;
-    int xMan = 290;
-    int yMan = 490;
-    int xMan1 = 700;
+    float xMan = 290;
+    float yMan = 490;
+    float xMan1 = 700;
     float razmMan = 1;
     int xDoor = 320;
     int yDoor = 450;
@@ -186,10 +220,17 @@ int main()
     float razmBallon = 1;
     float razmMountains = 1;
     int xCar = 100;
+    int yNazvanie = 750;
+    int yTitry = 750;
 
 
-
-
+    while(yNazvanie>-400)
+    {
+    drawSky(TX_BLACK);
+    drawNazvanie(yNazvanie);
+    yNazvanie -= 5;
+    txSleep(10);
+    }
 while(xDoor>260)
     {
         txBegin();
@@ -329,6 +370,7 @@ while(xMan<900)
         txBegin();
         drawSky(RGB (0,0,125));
         drawZemlya();
+        drawRoad();
         for(int xTree=100; xTree<=600; xTree=xTree+100)
         {
             drawTree(xTree);
@@ -350,11 +392,13 @@ while(xCar<900)
         txBegin();
         drawSky(RGB (0,0,125));
         drawZemlya();
+        drawRoad();
         for(int xTree=100; xTree<=600; xTree=xTree+100)
         {
         drawTree(xTree);
         }
         drawCarwithMans(xCar);
+
 
 
         xCar += 10;
@@ -368,6 +412,7 @@ while(xCar<900)
         txBegin();
         drawSky(RGB (0,0,125));
         drawZemlya();
+        drawRoad();
         for(int xTree=50; xTree<=750; xTree=xTree+80)
         {
         drawTree(xTree);
@@ -386,10 +431,11 @@ while(xCar<900)
         txBegin();
         drawSky(RGB (0,0,125));
         drawZemlya();
+        drawRoad();
         drawBallon(xBallon,yBallon, razmBallon);
         drawCarwithMans(xCar);
 
-        xCar += 30;
+        xCar += 5;
 
         txEnd();
         txSleep(10);
@@ -403,6 +449,7 @@ while(xMan<xBallon-70)
         txBegin();
         drawSky(RGB (0,0,125));
         drawZemlya();
+        drawRoad();
         drawBallon(xBallon,yBallon, razmBallon);
         drawCar(xCar);
         drawMan(xMan, yMan, razmMan);
@@ -418,12 +465,14 @@ while(xMan<xBallon-70)
     }
 
    razmMan = 1;
+
 while(razmMan>0.5)
 
    {
         txBegin();
         drawSky(RGB (0,0,125));
         drawZemlya();
+        drawRoad();
         drawBallon(xBallon,yBallon,razmBallon);
         drawCar(xCar);
         drawMan(xMan, yMan, razmMan);
@@ -443,6 +492,7 @@ while(yMan>400)
         txBegin();
         drawSky(RGB (0,0,125));
         drawZemlya();
+        drawRoad();
         drawBallon(xBallon,yBallon,razmBallon);
         drawCar(xCar);
         drawMan(xMan, yMan, razmMan);
@@ -462,6 +512,7 @@ while(yBallon > -50)
         txBegin();
         drawSky(RGB (0,0,125));
         drawZemlya();
+        drawRoad();
         drawCar(xCar);
         drawMan(xMan, yMan, razmMan);
         drawMan(xMan1, yMan, razmMan);
@@ -497,14 +548,16 @@ while(yBallon > -50)
     txEnd();
     txSleep(10);
     }
-      //razmMountains
+    xMan = razmBallon-25;
+    xMan1 = razmBallon-10;
+    yMan = yBallon-45;
     while(razmBallon<1)
     {
 
     txBegin();
     drawSky(RGB (0,0,125));
-    drawMan(xBallon-34, yBallon-45, razmBallon/2);
-    drawMan(xBallon-12, yBallon-45, razmBallon/2);
+    drawMan(xBallon-34, yMan, razmMan);
+    drawMan(xBallon-12, yMan, razmMan);
     drawMountains(626,161,razmMountains);
     drawBallon(xBallon,yBallon,razmBallon);
 
@@ -513,14 +566,20 @@ while(yBallon > -50)
     yBallon += 5;
     razmBallon += 0.01;
     razmMountains += 0.05;
+    razmMan += 0.005;
+    xMan -= 0.001;
+    yMan += 1;
 
     txEnd();
+    txSleep();
+    }
+while(yTitry>-400)
+    {
+    drawSky(TX_BLACK);
+    drawTitry(yTitry);
+    yTitry -= 5;
     txSleep(10);
     }
-
-
-
     txTextCursor (false);
     return 0;
-}
-
+    }
